@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3498db;
+    margin: 0;
+}
+
+.game-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+#userGuess {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1f669d;
+}
+
+#restartButton {
+    margin-top: 20px;
+}
